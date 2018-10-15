@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Debora Urrutia -->
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Lab 5 p3</title>
+		 <style type = "text/css">
+			table, td, th{
+			border: 1px solid;
+			text-align:center;
+			}
+		</style>
+		<table>
+			<thead>
+				<tr>
+				<th>N</th>
+				<th>10*N</th>
+				<th>100*N</th>
+				<th>1000*N</th>
+				</tr>
+			</thead>		
+			<tbody>
+				<script type= "text/javascript"> 
+					var N;
+			
+					for(var N=1; N<=5; ++N)
+					{
+						document.write("<tr>");
+						document.write("<td>"+N+"</td>");
+						document.write("<td>"+(N*10)+"</td>");
+						document.write("<td>"+(N*100)+"</td>");
+						document.write("<td>"+(N*1000)+"</td>");
+						document.write("</tr>");
+						N++;
+					}
+				</script>
+			</tbody>
+		</table>
+	</head>
+	<body>
+	
+	</body>
+</html>

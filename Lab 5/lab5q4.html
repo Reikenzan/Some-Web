@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Debora Urrutia -->
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Lab 5 p4</title>
+		<script> 
+		
+		var input; 
+		var number;
+		 
+		for ( var i = 1 ; i <= 5 ; ++i ) 
+		{ 
+			input = window.prompt( "Enter a number: " , "0" ); 
+			number = parseInt( input ); 
+			
+			while ( number < 1 || number > 30 ) 
+		    { 
+			  input = window.prompt( "Input not in range. " +  "Enter a number: " , "0" ); 
+			  number = parseInt( input ); 
+		    } 
+			
+			document.writeln( "<p>" ); 
+			
+			for ( var stars = 1; stars <= number; ++stars ) 
+			document.write( "*" ); 
+			
+			document.writeln( "</p>" ); 
+		}
+		
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
