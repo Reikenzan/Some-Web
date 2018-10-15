@@ -1,0 +1,97 @@
+/*DEBORA URRUTIA*/
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+body {
+	font-family: 'Indie Flower', cursive;
+    margin:0;
+	background: -webkit-radial-gradient(gold, aqua, pink, green);
+    font-size:20px;
+}
+
+#pagetitle{	position:relative;
+		text-align: center;
+		font-weight: bold;
+		background-color: violet;	
+		text-shadow: 3px 3px 4px white; /* add shadow */
+        font-size: 33px; /* increasing the font size */
+		box-shadow:0px 3px blue;
+}
+
+#main { margin: 0.9em 0.9em; }
+     /* styles for smartphones with screen widths 480px or smaller */
+      @media handheld and (max-width: 480px),screen and (max-device-width: 480px), screen and (max-width: 480px) 
+      {
+         #main{-webkit-column-count: 1; 
+            column-count: 1; }
+      }
+      /* styles for devices with screen widths of 481px to 1024px */
+      @media only screen and (min-width: 481px) and (max-width: 1024px)
+      {
+         #main{-webkit-column-count: 2; 
+            column-count: 2;
+            -webkit-column-gap: 30px; 
+            column-gap: 30px;
+            -webkit-column-rule: 1px outset black; 
+            column-rule: 1px outset black; }
+      }
+      /* styles for devices with screen widths of 1025px or greater */
+      @media only screen and (min-width: 1025px)
+      {
+         #main{-webkit-column-count: 3; 
+            column-count: 3;
+            -webkit-column-gap: 30px; 
+            column-gap: 30px;
+            -webkit-column-rule: 1px outset black; 
+            column-rule: 1px outset black; }
+      }
+
+         nav             { position:absolute;
+		                font-weight: bold;
+						left: 20px;
+						top:5px;
+                        color: white;
+                    	border: 1px red;
+						padding: 2px 5px; 
+						background: red;
+						width: 8em;
+						text-align: center;
+						box-shadow:3px 3px springgreen;
+						border-radius: 10px; /* adding rounded corners */
+						margin-bottom: 3px
+					   }
+         nav ul          { display: none;
+                           list-style: none;
+                           margin: 0;
+                           padding: 0; }
+         nav:hover ul    { display: block; }
+         nav ul li       { border-top: 1px solid Red;
+						border-bottom: 3px solid red;
+                        background-color: white;
+                        width: 8em;
+                        color: black; 
+						   }
+         nav ul li:hover { background-color: white; }
+         a               { text-decoration: none; }
+
+		 
+footer{position:relative;
+	background-color: gray;
+}
+
+.ball{content:url(ball.png);
+	position:absolute;		
+	-webkit-animation-name: ballmove;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: 2;
+    -webkit-animation-direction: alternate;
+}
+	@keyframes ballmove {
+    0%   {left:0px; top:200px;}
+    25%  {left:200px; top:0px;}
+    50%  {right:0px; top:200px;}
+    75%  {right:200px; top:0px;}
+    100% {right:0px; top:0px;}
+	}
+	
+.myname:after{
+	content:"Debora Urrutia.";
+}
