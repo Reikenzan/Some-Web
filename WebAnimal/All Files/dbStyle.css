@@ -1,0 +1,36 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+#table{
+	margin-top:2%;
+    margin-left:75%;
+}
+
+.data {
+    background:yellow;
+	color:blue;
+}
+
+.heading {
+    background:rgb(255, 153, 51);
+	color:yellow;
+}
+
+.mainHeading {
+    background:rgb(255, 153, 51);
+	color:yellow;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+.productLine{
+	position:relative;
+	top:15%;
+}
+table {
+    float: left;
+}

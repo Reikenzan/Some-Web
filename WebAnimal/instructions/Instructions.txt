@@ -1,0 +1,35 @@
+use the template in this folder to format the dbview.php page.
+That page is already connected to the dbStyle.css provided.
+
+Make it look as much like the template as possible, because we're doing this rushed we
+can't make more than two-three pages unless one of you has the time.
+
+Someone must also create an "Onclick" actionlistener and function for the purchase button.
+The button should take the user to a seperate page that is styled and finished.
+This person will also add additional entrys to the "animal" database by logging in to it.
+We only have two entrys currently and need more.
+The instructions to login are in the access information folder
+
+add whatever else if you can think of anything that suits the page
+
+Summary*****There are 3 tasks
+1)dbview page should look like the website template. Use backgrounds and colors that go
+with the tables or change the table css to accomodate.
+
+2)Create and style a page called dbPurchase. 
+*Note
+I'll do any database variables the purchase page needs once i get home at 9 tomorrow.
+-Ignore- the need for any variables if you need to and focus on that page looking great.
+
+
+3)Add Onclick functionality to the purchase button that takes you to the dbPurchase page
+After adding that, use google and wikipedia to add more animal entrys to the
+ cpais47368_groupProg_Animal table. Don't mess with the tables variables, only add
+ more entries. Look at the access information folder or lab 10 to find out how to reach the table.
+It's on phpmyadmin.
+
+
+I'll add a © TM Produced by footer when finished with our names and roles in the project
+
+additionally:
+Add on-hover effects and color gradients if you remember how to where possible.
