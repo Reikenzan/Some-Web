@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+#table{
+	margin-top:2%;
+    margin-left:75%;
+}
+
+.data {
+    background:yellow;
+	color:blue;
+}
+
+.heading {
+    background:rgb(255, 153, 51);
+	color:yellow;
+}
+
+.mainHeading {
+    background:rgb(255, 153, 51);
+	color:yellow;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+#productLine{
+	position:fixed;
+	top:75%;
+}
+table {
+    float: left;
+}
+/*The Heading Styles until Picture    */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: -webkit-linear-gradient(left top, red, yellow);
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.whiteText{
+	color: white;
+	font-size:225%;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+}
+
+.redText{
+	color: rgb(153, 255, 51);
+	font-size:225%;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+}
+#companyName{
+
+position: fixed;
+top:2%;
+}
+/*Heading Styles end here    */
+
+#formulario{
+	border: 3px solid Maroon ;
+	background-color:Violet ;
+	width:450px;
+	padding:1em;
+	margin:2em;
+}
+#sided{
+	float:right;
+	margin:2em;
+}
