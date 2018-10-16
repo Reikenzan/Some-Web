@@ -1,0 +1,193 @@
+/*DEBORA URRUTIA*/
+header{	
+		position:relative;
+		text-align: center;
+		font-weight: bold;
+		/*font-family: arial, serif;*/
+		margin:0; 
+		font-size: 21px;
+		background: -webkit-radial-gradient(gold, aqua, pink, green);
+		color: white;
+		-webkit-text-stroke: 2px black;
+    }
+h2{ margin-left:8em;
+	font-size: 25px;}
+h3{ margin-left:4em;
+	font-size: 22px;}
+h4{ margin-left:2em;
+	margin-top:2em;
+	margin-bottom:0;
+	font-size: 20px;}
+
+.img{
+	float:right;
+        -webkit-transition: -webkit-transform 4s; 
+		transition: transform 4s;
+		margin-right:3.3em;
+		margin-left:0;
+		position:center;
+     }
+.img:hover    {-webkit-transform: rotate(360deg) scale(1.5,1.5); 
+}
+	
+nav{
+	position:relative;
+	margin-left:8em;
+	font-weight:bold;
+}
+#Sumary,th{
+	margin-left:5em;
+	border:2px solid blue;
+}
+td{
+	border: 2px solid purple
+}
+#cuadro{
+	margin-left:1.5em;
+	margin-right:1.3em;
+}
+
+#marco
+{
+	text-align:center;
+	position:center;
+	margin-bottom:2em;
+}
+
+img    {	
+        -webkit-transition: -webkit-transform 4s; 
+		transition: transform 4s;
+		margin-left:4em;
+		position:center;
+     }
+img:hover    {-webkit-transform: rotate(360deg) scale(1,1); 
+}
+
+body {
+	margin:0;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+    background-image: url(https://thelittlethingsinlifexx.files.wordpress.com/2014/11/photo.jpg);
+	}
+
+#myMenu{
+		position:absolute;
+		font-family:Arial, Sans-serif;
+		left: -7em;
+		top:9px;
+        color: white;
+        border: 2px red;
+		padding: 2px 5px; 
+		background: red;
+		width: 9em;
+		text-align: center;
+		box-shadow:5px 5px black;
+		border-radius: 10px; /* adding rounded corners */
+		margin-bottom: 3px }
+#myMenu ul  { display: none;
+            list-style: none;
+            margin: 0;
+            padding: 0; }
+#myMenu:hover ul    { display: block; }
+#myMenu ul li       { border-top: 2px solid Red;
+           background-color: white;
+           width: 9em;
+           color: black; }
+#myMenu ul li:hover { background-color: pink; }
+a               { text-decoration: none; }
+
+form{ margin:2em 3em 4em 5em; }
+
+.flexbox {  	width: 705px;
+            height: 680px;
+            display: -webkit-box; /* display: box; box-orient: horizontal;*/
+            -webkit-box-orient: horizontal;
+			font-size: 14px;
+         }
+    .flexbox > div  {
+				-webkit-transition: 1s ease-out;
+				transition: 1s ease-out;
+				-webkit-border-radius: 25px;
+				border-radius: 25px;
+				border: 3px solid black;
+				width: 190px;
+				margin: 25px -30px 35px 10px;
+				padding: 38px 38px 38px 38px;
+				box-shadow: 15px 15px 15px dimgrey;
+				font-size: 14px;
+         }
+         .flexbox > div:nth-child(1){ background-color: lightgrey; }
+         .flexbox > div:nth-child(2){ background-color: lightgrey; }
+         .flexbox > div:nth-child(3){ background-color: lightgrey; }
+         .flexbox > div:nth-child(4){ background-color: lightgrey; }
+		 .flexbox > div:nth-child(5){ background-color: lightgrey; }
+
+         .flexbox > div:hover { 	width: 260px; 
+								color: white; 
+								font-weight: bold; 
+								font-size: 15px;
+							}		 
+         .flexbox > div:nth-child(1):hover { background-color: royalblue; }
+         .flexbox > div:nth-child(2):hover { background-color: crimson; }
+         .flexbox > div:nth-child(3):hover { background-color: goldenrod; }
+         .flexbox > div:nth-child(4):hover { background-color: darkgreen; }
+		 .flexbox > div:nth-child(5):hover { background-color: purple; }
+         /*p { height: 250px; overflow: hidden; font-family: "Rosario" }*/
+
+#main { margin: 1.4em 1.4em; }
+     /* styles for smartphones with screen widths 480px or smaller */
+      @media handheld and (max-width: 480px),screen and (max-device-width: 480px), screen and (max-width: 480px) 
+      {
+         #main{-webkit-column-count: 1; 
+            column-count: 1; }
+      }
+      /* styles for devices with screen widths of 481px to 1024px */
+      @media only screen and (min-width: 481px) and (max-width: 1024px)
+      {
+         #main{-webkit-column-count: 2; 
+            column-count: 2;
+            -webkit-column-gap: 30px; 
+            column-gap: 30px;
+            -webkit-column-rule: 1px outset black; 
+            column-rule: 1px outset black; }
+      }
+      /* styles for devices with screen widths of 1025px or greater */
+      @media only screen and (min-width: 1025px)
+      {
+         #main{-webkit-column-count: 3; 
+            column-count: 3;
+            -webkit-column-gap: 30px; 
+            column-gap: 30px;
+            -webkit-column-rule: 1px outset black; 
+            column-rule: 1px outset black; }
+      }	  
+
+#formulario{
+	border: 3px solid Maroon ;
+	background-color:Violet ;
+	width:450px;
+	padding:1em;
+	margin:2em;
+}
+#bu1,#bu2{
+	margin:15px;	
+	position:center;
+	padding:1em;
+	color:blue;
+	background-color:SpringGreen;
+	font-weight: bold;
+}
+
+
+footer{position:absolute;
+	  color:white;
+	  width:100%;
+	  background-color:Crimson;
+	  height:4em;	  
+	  text-align:left;
+	  white-space:pre-line;
+	  margin-top:6em;
+}
+
+.myname:after{
+	content:"Debora Urrutia.";
+}
