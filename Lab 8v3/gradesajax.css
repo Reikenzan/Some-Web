@@ -1,0 +1,32 @@
+/* 
+S.Miller 
+WCC
+Fall 2015
+*/
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+td,th {
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: aquamarine;
+}
+tr:nth-child(odd) {
+    background-color: aqua;
+}
+tr > th {
+    background-color: cornflowerblue;
+}
+
+td > a {
+    color: black;
+    display: block;
+    text-indent: -9999px;
+    width: 1em;
+    height: 1em;
+    background: url(http://tophat.sunywcc.edu/~smiller/trash.svg);
+    background-size: 1em 1em;
+}
